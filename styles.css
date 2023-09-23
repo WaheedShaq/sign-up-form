@@ -3,10 +3,13 @@
   src: url(./fonts/Norse-Bold.otf);
 }
 * {
-  font-family: Norse-Bold, sans-serif;
+  /* font-family: Norse-Bold, sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
 }
 
 .main {
@@ -22,7 +25,65 @@
   color: white;
   width: 35vw;
 }
+
 .right {
   display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 65vw;
+}
+
+.right-first {
+  height: 25vh;
+  margin-top: 150px;
+  margin-left: 5%;
+  margin-right: 450px;
+  margin-bottom: 5%;
+  display: flex;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.right-second {
+  background-color: white;
+  height: 33vh;
+}
+
+.right-third {
+  height: 33vh;
+}
+
+.form-main-div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+
+  width: 60%;
+  justify-content: center;
+}
+
+.form-headline {
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  margin-bottom: 10px;
+}
+
+.form-divs-left {
+  margin-left: 5px;
+}
+
+.form-divs-right {
+  margin-left: 100px;
+}
+
+input {
+  width: 200px;
+  border: 1px solid #e5e7eb;
+  height: 25px;
 }
