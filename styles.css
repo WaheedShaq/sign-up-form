@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+* {
+  font-family: Norse-Bold, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+  background-image: url(./images/max-bender-iF5odYWB_nQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 35vw;
+}
+.right {
+  display: flex;
+  justify-content: center;
+}
